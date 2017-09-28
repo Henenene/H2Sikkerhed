@@ -1,0 +1,36 @@
+This is a tutorial for using github.
+(This is via the Github Command Line)
+
+Uploading a new file to github.
+1. Create & write something in a new file.
+2. git add *fileName*
+3. git commit -m "commitMessage"
+4. git push --all
+
+Updating your local repo with the newest version of github files.
+1. git pull
+
+Check if you've made changes to a file.
+1. git commit
+
+If you regret your changes in a file.
+1. git stash *fileName*
+
+Initiate a new branch.
+1. git init *branchName*
+
+Make directories in your github.
+1. git mkdir *directoryName*
+
+Moving items within your github.
+1. git mv *fileName* *directoryName*
+
+Deleting items from your github.
+1. git rm *fileName*.*fileType*
+
+Open files with notepad directly from CMD.
+1. notepad *fileName*
+
+Open files with VSCode directly from CMD.
+1. code *fileName*
+
