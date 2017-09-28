@@ -1,5 +1,12 @@
 Write everything below, this will be formatted into a Microsoft Word document later on.
 
+tutorial for uploading to github:
+
+1. Make/edit the document you're working on.
+2. git add *Document*
+3. git commit -m "Message"
+4. git push --all
+
 Problemstilling
 
 Svagheder omkring WPA2 Personal, I dette indgår der f.eks. password sikkerhed, politikker, kryptering og generel opbygning af connections. 
