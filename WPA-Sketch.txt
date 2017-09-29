@@ -17,8 +17,6 @@ Ved brugen af access modifieres vil vi kunne sikre vores fremtidige kode imod �
 Dette g�r det ogs� nemmere for andre programm�rer der skal rette i vores kode, da de ikke bliver forvirret af en masse variabler der ikke har noget med deres opgave at g�re.
 
 
-
-
 Password sikkerhed.
 
 Password sikkerhed er en ubeskrivelig vigtig del af vores teknologiske verden
@@ -34,4 +32,13 @@ Password politikker sikrer os, at vi har den optimale sikkerhed mod f.eks brutef
 Der er forskellige politikker fra firma til firma, dog sørger mange for at deres medarbejderere skal skifte password minimum 3 - 4 gange om året.
 Man stiller visse krav til de passwords som medarbejderne laver, f.eks skal de være mellem 8 - 30 karatere lange, de skal indholde tal og store/små bogstaver.
 
+Exempel:
+På AU (Arhus Universitet) har de lavet et reglsæt omkring, hvordan dit password skal være.
+
+Nogle af disse kriterier er:
+Det skal være stærkt, det må ikke indholde personlige oplysninger, det skal være minimum 8 karatere,
+der skal være store & små bogstaver, tal samt specialtegn, passwordet skal skiftes indenfor 180 dage
+og et password må ikke genbruges.
+
 Connection handshake (the weakest link)
+
