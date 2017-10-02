@@ -58,3 +58,8 @@ aireplay-ng -0 1 -e [ESSID] [Wifi_interface]
 // choose one, and copy it to "desktop\hackwifi"
 
 aircrack-ng -w [path to wordlist] [path to the ivs file we created]
+
+// this will return the wifi password, if it is contained in the wordlist file.
+// if it is not contained by the wordlist, you can use the program in kali linux, called wordcrunch.
+// wordcrunch will make a wordlist with passwords costimized by the user.
+// which means if i know your password is alphanumeric, and contains numbers and special charekters . wordcrunch can make a list of possible
