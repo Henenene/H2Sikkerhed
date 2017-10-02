@@ -50,3 +50,15 @@ hvor godt det virker. taget i betragtning hvor lidt det koster at komme igang.
 
 Connection handshake (the weakest link)
 
+vi har lavet en lille tutorial til hvordan man udnytter "Connection handshake" og bruteforce teknikken til at opnå adgang til at WPA/WPA2 sikret netværk.
+kik i filen [wpahack.txt på vors github]
+den beskriver hvordan man ved hjælp at monitermode på dit wifi netkort, og et par open source værktøjer til Debian linux,
+kan hake sig ind i netværket.
+
+dette kan kun lade sig gøre da wpa/wpa2 bruger en universal key som er fælles for alle brugere.
+
+
+dette kan forhindres hvis man bruger WPA2-Enterprise da der ikke er nogen universal key.
+WPA2-Enterprise tjekker brugernavn og password, fra en database. hvilket gør det nemt at lave centraliseret control.
+samt hvis en medarbejder bliver fyret, kan man bare sige til serveren at denne medarbejder ikke må komme på wifi længere.
+(https://www.youtube.com/watch?v=NWYGITylBzo) denne video forklare det på en måde så alle kan være med.
