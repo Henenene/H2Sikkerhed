@@ -28,9 +28,9 @@ Md5
 
 Password politikker
 
-Password politikker sikrer os, at vi har den optimale sikkerhed mod f.eks bruteforce angreb.
+Password politikker sikrer os, at vi har den optimale sikkerhed mod bruteforce angreb.
 Der er forskellige politikker fra firma til firma, dog sørger mange for at deres medarbejderere skal skifte password minimum 3 - 4 gange om året.
-Man stiller visse krav til de passwords som medarbejderne laver, f.eks skal de være mellem 8 - 30 karatere lange, de skal indholde tal og store/små bogstaver.
+Man stiller visse krav til de passwords som medarbejderne laver, f.eks skal de være minimum 8 karatere lange, de skal indholde tal, store/små bogstaver og specialtegn.
 
 Exempel:
 På AU (Arhus Universitet) har de lavet et reglsæt omkring, hvordan dit password skal være.
@@ -39,6 +39,14 @@ Nogle af disse kriterier er:
 Det skal være stærkt, det må ikke indholde personlige oplysninger, det skal være minimum 8 karatere,
 der skal være store & små bogstaver, tal samt specialtegn, passwordet skal skiftes indenfor 180 dage
 og et password må ikke genbruges.
+
+grunden til at et password skal skiftes, er hvis ens credentials (brugernavn og password) bliver cracket, og ender op på en password list, eller bliver sat til salg
+på det sorte market (gennem tor), hvis man skifter sit password vil de oplysning er der bliver læket være invalide.
+
+bruteforce angreb:
+det er den mest ineffective måde at cracke passwords på. men som vidst i numberphile videoen (https://www.youtube.com/watch?v=7U-RbOKanYs) så er det skræmmende,
+hvor godt det virker. taget i betragtning hvor lidt det koster at komme igang.
+
 
 Connection handshake (the weakest link)
 

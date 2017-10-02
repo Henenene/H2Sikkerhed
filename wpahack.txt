@@ -44,4 +44,22 @@ airdump-ng -c [insert channel] -w [insert name of the file you are goin to creat
 // we are going to use the file to extract the password for the wifi
 // use airdump-ng --help if you get confused.  
 
-//
+// for this to work, you will need to wait until someone connects to the wifi.
+//to disconnect others from a wifi use aireplay-ng
+
+aireplay-ng -0 1 -e [ESSID] [Wifi_interface]
+
+//when someone have connected you can press "ctrl + C" to exit the shell.
+
+//now you have a file at the root of the terminal window, move this file to a more suitable place.
+// i would sugest desktop\hackwifi
+// next step is to use aircrach-ng to crack it, this will iterate trough a wordlist to determine 
+// to find a suitable wordlist, just search for "wordlist" in kali linux, it will direct you to a folder that has a few good ones.
+// choose one, and copy it to "desktop\hackwifi"
+
+aircrack-ng -w [path to wordlist] [path to the ivs file we created]
+
+// this will return the wifi password, if it is contained in the wordlist file.
+// if it is not contained by the wordlist, you can use the program in kali linux, called wordcrunch.
+// wordcrunch will make a wordlist with passwords costimized by the user.
+// which means if i know your password is alphanumeric, and contains numbers and special charekters . wordcrunch can make a list of possible
