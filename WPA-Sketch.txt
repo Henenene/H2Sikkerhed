@@ -70,3 +70,8 @@ dette kan forhindres hvis man bruger WPA2-Enterprise da der ikke er nogen univer
 WPA2-Enterprise tjekker brugernavn og password, fra en database. hvilket gør det nemt at lave centraliseret control.
 samt hvis en medarbejder bliver fyret, kan man bare sige til serveren at denne medarbejder ikke må komme på wifi længere.
 (https://www.youtube.com/watch?v=NWYGITylBzo) denne video forklare det på en måde så alle kan være med.
+
+
+KRACK and SSLSTRIP
+
+https://youtu.be/Oh4WURZoR98
