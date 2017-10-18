@@ -43,6 +43,11 @@ og et password må ikke genbruges.
 grunden til at et password skal skiftes, er hvis ens credentials (brugernavn og password) bliver cracket, og ender op på en password list, eller bliver sat til salg
 på det sorte market (gennem tor), hvis man skifter sit password vil de oplysning er der bliver læket være invalide.
 
+en god måde at lave et stærkt password på er for exemple at fortælle en lille unik historie om ens liv:
+I have a Dog named Fiddo and he is 51 dog years.
+ved at tage første bogstav i hvert ord i denne historie for man en rimeligt stærks password, samt det er "nemmere" at huske'ish
+"IhaDnFahi5dy"
+
 bruteforce angreb:
 det er den mest ineffective måde at cracke passwords på. men som vidst i numberphile videoen (https://www.youtube.com/watch?v=7U-RbOKanYs) så er det skræmmende,
 hvor godt det virker. taget i betragtning hvor lidt det koster at komme igang.
@@ -53,7 +58,10 @@ Connection handshake (the weakest link)
 vi har lavet en lille tutorial til hvordan man udnytter "Connection handshake" og bruteforce teknikken til at opnå adgang til at WPA/WPA2 sikret netværk.
 kik i filen [wpahack.txt på vors github]
 den beskriver hvordan man ved hjælp at monitermode på dit wifi netkort, og et par open source værktøjer til Debian linux,
-kan hake sig ind i netværket.
+kan brute force sig frem til passwordet til WIFI'et
+
+de open source værktøjer kan finde frem til hashen af passwordet.
+og ved at sammenligne hashen af kendte passwords kan man finde frem til hvilket der er blevet brugt.
 
 dette kan kun lade sig gøre da wpa/wpa2 bruger en universal key som er fælles for alle brugere.
 
